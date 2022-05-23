@@ -182,6 +182,10 @@ textarea {
 	
 }
 
+.resume { 
+  justify-content: center;
+}
+
 .flex-row {
   display: flex;
   flex-wrap: wrap;

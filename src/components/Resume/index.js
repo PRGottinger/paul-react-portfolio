@@ -15,8 +15,18 @@ function Resume(props) {
           <li>-Object-Relational Mapping, Model-View-Controller</li>
           <li>-SQL, NoSQL (MongoDB), GraphQL</li>
           <li>-Progressive Web Applications, Regex statments, React</li>
+          {/* <li
+            onClick={() => {
+              props.setPage("About");
+            }}
+            className="mx-2"
+          >
+            <a href="#document">About me</a> */}
         </ul>
         <a href="../../assets/large/Resume.png" target="_blank">Paul's Resume</a>
+        
+          
+        
       </div>
     </div>
   );

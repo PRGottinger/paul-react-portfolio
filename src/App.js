@@ -5,6 +5,8 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
+import Document from "./components/Document"
+
 import "./App.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -19,6 +21,8 @@ function App() {
       return <Contact></Contact>;
     } else if (page == "Projects") {
       return <Projects></Projects>;
+    } else if (page == "Document") {
+      return <Document></Document>;
     } else {
       return <Resume></Resume>;
     }

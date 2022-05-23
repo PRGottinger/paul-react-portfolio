@@ -17,6 +17,7 @@ function Projects(props) {
         alt="cover"
         ></img>
        
+      <p><a href="https://github.com/PRGottinger/community-posting-board" target="_blank"></a>Community Posting Board Github Repo</p>
         </div>
          
 
