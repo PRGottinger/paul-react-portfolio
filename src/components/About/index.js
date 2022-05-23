@@ -1,18 +1,19 @@
 import React from "react";
-// import coverImage from "../../assets/cover.jpg";
+import coverImage from "../../assets/large/paul.jpg";
 
 function About() {
   return (
-    <section className="my-5">
+    <section className="about-section">
       <h1 id="about">About Me</h1>
-      {/* <img
+      <div className="container-about">
+      <img
         src={coverImage}
         className="my-2"
-        style={{ width: "100%" }}
+        style={{ width: "40%" }}
         alt="cover"
-      /> */}
-      <div className="my-2">
-        <div className="my-2">
+      />
+      
+        <div className="about-p">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
             bibendum turpis sed ex condimentum molestie. Mauris condimentum
@@ -25,6 +26,9 @@ function About() {
             nibh. Curabitur imperdiet ultricies mollis. In hac habitasse platea
             dictumst.
           </p>
+          <ul>
+            <li><a href="https://github.com/PRGottinger" target="_blank">Paul's Github</a></li>
+          </ul>
         </div>
       </div>
     </section>

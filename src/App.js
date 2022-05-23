@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import About from "./components/About";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
@@ -34,6 +35,7 @@ function App() {
       </button> */}
       <Nav setPage={setPage}></Nav>
       <main>{render()}</main>
+      <Footer>setPage={setPage}</Footer>
     </div>
   );
 }

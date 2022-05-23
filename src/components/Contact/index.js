@@ -3,7 +3,7 @@ import React from 'react';
 
 function Contact(props) {
     return (
-        <section className="container">
+        <section className="container1">
         {/* <h2 className="top-title">Contact Form</h2> */}
         <h2 className="top-title">Contact Form</h2>
         <hr></hr>
@@ -23,7 +23,8 @@ function Contact(props) {
             </div> 
            
 
-            <div class="mt-5 mb-5" >
+           
+            <div class="mt-5 mb-5" > 
             <button data-testid='button' class="btn btn-outline-dark " type="submit" >Submit</button>
             </div>
         </form>
