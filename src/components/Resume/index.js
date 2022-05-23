@@ -1,4 +1,5 @@
 import React from "react";
+import resumeImage from "../../assets/large/Resume.png";
 
 function Resume(props) {
   return (
@@ -15,6 +16,7 @@ function Resume(props) {
           <li>-SQL, NoSQL (MongoDB), GraphQL</li>
           <li>-Progressive Web Applications, Regex statments, React</li>
         </ul>
+        <a href="../../assets/large/Resume.png" target="_blank">Paul's Resume</a>
       </div>
     </div>
   );

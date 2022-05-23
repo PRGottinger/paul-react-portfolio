@@ -1,7 +1,30 @@
 import React from 'react';
+import { validateEmail } from '../../utils/helpers';
 
 
 function Contact(props) {
+//     if (e.target.name === 'email') {
+//         const isValid = validateEmail(e.target.value);
+//         console.log(isValid);
+//         // isValid conditional statement
+
+//         const [errorMessage, setErrorMessage] = useState('');
+
+//         / isValid conditional statement
+// if (!isValid) {
+//   setErrorMessage('Your email is invalid.');
+// } else {
+//   setErrorMessage('');
+
+// } else {
+//     if (!e.target.value.length) {
+//       setErrorMessage(`${e.target.name} is required.`);
+//     } else {
+//       setErrorMessage('');
+//     }
+//   }
+// }
+      
     return (
         <section className="container1">
         {/* <h2 className="top-title">Contact Form</h2> */}
@@ -31,5 +54,9 @@ function Contact(props) {
     </section>
     );
 }
+
+// if (!errorMessage) {
+//     setFormState({ ...formState, [e.target.name]: e.target.value });
+//   }
 
 export default Contact;

@@ -9,7 +9,7 @@ function About() {
       <img
         src={coverImage}
         className="my-2"
-        style={{ width: "40%" }}
+        style={{ width: "60%" }}
         alt="cover"
       />
       
@@ -26,9 +26,13 @@ function About() {
             nibh. Curabitur imperdiet ultricies mollis. In hac habitasse platea
             dictumst.
           </p>
+          <div class="table">
           <ul>
             <li><a href="https://github.com/PRGottinger" target="_blank">Paul's Github</a></li>
+            <li><a href="www.linkedin.com/in/paul-gottinger-28677572" target="_blank">Paul's LinkedIn</a></li>
+            <li><a href="https://twitter.com/PaulGottinger" target="_blank">Paul's Twitter</a></li>
           </ul>
+          </div> 
         </div>
       </div>
     </section>

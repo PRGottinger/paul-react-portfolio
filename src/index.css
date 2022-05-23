@@ -172,6 +172,16 @@ textarea {
   margin-right: auto;
 }
 
+.table {
+  margin-left: 40px;
+}
+
+.table ul > li{
+	display: inline-block;  
+  margin: 5px;
+	
+}
+
 .flex-row {
   display: flex;
   flex-wrap: wrap;
