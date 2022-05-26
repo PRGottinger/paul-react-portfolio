@@ -23,7 +23,7 @@ function Resume(props) {
           >
             <a href="#document">About me</a> */}
         </ul>
-        <a href="../../assets/large/Resume.png" target="_blank">Paul's Resume</a>
+        <a href="Resume.png" download>Paul's Resume</a>
         
           
         

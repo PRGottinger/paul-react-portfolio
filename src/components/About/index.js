@@ -26,7 +26,7 @@ function About() {
             nibh. Curabitur imperdiet ultricies mollis. In hac habitasse platea
             dictumst.
           </p>
-          <div class="table">
+          <div className="table">
           <ul>
             <li><a href="https://github.com/PRGottinger" target="_blank">Paul's Github</a></li>
             <li><a href="www.linkedin.com/in/paul-gottinger-28677572" target="_blank">Paul's LinkedIn</a></li>

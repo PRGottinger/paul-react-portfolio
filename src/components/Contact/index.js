@@ -24,6 +24,14 @@ function Contact(props) {
 //     }
 //   }
 // }
+
+
+// Yacob
+// function handleSubmit(){
+//     if(validateEmail()){
+
+//     }
+// }
       
     return (
         <section className="container1">
@@ -31,18 +39,18 @@ function Contact(props) {
         <h2 className="top-title">Contact Form</h2>
         <hr></hr>
         {/* <form class="justify-content-center" id="contact-form"> */}
-        <form id="contact-form">
+        <form id="contact-form" onSubmit = {() => {validateEmail()}}>
             <div class="mt-5" >
                 <label htmlFor="name">Name:</label>
-                <input class="form-control" type="text" name="name"></input>
+                <input className="form-control" type="text" name="name"></input>
             </div>
             <div class="mt-5" >
                 <label htmlFor="email">Email Address:</label>
-                <input class="form-control" type="email"  name="email" />
+                <input className="form-control" type="email"  name="email" />
             </div>
             <div class="mt-5" >
                 <label htmlFor="message">Message:</label>
-                <textarea class="form-control" name="message"  />
+                <textarea className="form-control" name="message"  />
             </div> 
            
 

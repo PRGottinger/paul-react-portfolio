@@ -5,14 +5,41 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
-import Document from "./components/Document"
+
 
 import "./App.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   // const page = "Contact";
-  const [page, setPage] = useState("About");
+  const [page, setPage] = useState();
+
+  let arr = [
+    {
+      title: "Dev Drip: E-Commerce Website",
+      src: "comm-post.png",
+      githubLink: "www.google.com",
+      githubName: "Dev Drip Github Repo",
+    },
+    {
+      title: "Community Posting Board",
+      src: "../../assets/small/comm-post.png",
+      githubLink: "www.google.com",
+      githubName: "Community Posting Board Github Repo",
+    },
+    {
+      title: "Festival of Nations",
+      src: "../../assets/small/fes-of-nat.jpg",
+      githubLink: "#",
+      githubName: "Festival of Nations Github Repo",
+    },
+    {
+      title: "Destination Briefing",
+      src: "#",
+      githubLink: "#",
+      githubName: "Destination Briefing Github Repo",
+    },
+  ];
 
   const render = () => {
     if (page == "About") {
@@ -20,9 +47,23 @@ function App() {
     } else if (page == "Contact") {
       return <Contact></Contact>;
     } else if (page == "Projects") {
-      return <Projects></Projects>;
-    } else if (page == "Document") {
-      return <Document></Document>;
+      return (
+        <div>
+          <h1>Paul's Projects</h1>
+          {arr.map((currValue, index) => {
+            return (
+              <Projects
+                key={index}
+                title={currValue.title}
+                githubName={currValue.githubName}
+                githubLink={currValue.githubLink}
+                src={currValue.src}
+              />
+            );
+          })}
+        </div>
+      );
+   
     } else {
       return <Resume></Resume>;
     }
