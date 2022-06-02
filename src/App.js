@@ -16,26 +16,26 @@ function App() {
   let arr = [
     {
       title: "Dev Drip: E-Commerce Website",
-      src: "./assets/small/dev-drip.png",
+      image: "../assets/small/dev-drip.png",
       githubLink: "https://github.com/saraoros/dev-drip",
       githubName: "Dev Drip Github Repo",
     },
     {
       title: "Community Posting Board",
-      src: "/assets/small/comm-post.png",
-      githubLink: "www.google.com",
+      image: "../assets/small/comm-post.png",
+      githubLink:"https://github.com/saraoros/dev-drip",
       githubName: "Community Posting Board Github Repo",
     },
     {
       title: "Festival of Nations",
-      src: "/assets/small/fes-of-nat.jpg",
-      githubLink: "#",
+      image: "../assets/small/fes-of-nat.jpg",
+      githubLink: "https://github.com/saraoros/dev-drip",
       githubName: "Festival of Nations Github Repo",
     },
     {
       title: "Destination Briefing",
-      src: "/assets/small/destination-briefing.jpg",
-      githubLink: "#",
+      image: "../assets/small/destination-briefing.jpg",
+      githubLink: "https://github.com/saraoros/dev-drip",
       githubName: "Destination Briefing Github Repo",
     },
   ];
@@ -48,18 +48,18 @@ function App() {
     } else if (page == "Projects") {
       return (
         <div>
-          <h1>Paul's Projects</h1>
-          {arr.map((currValue, index) => {
-            return (
+          {/* <h1>Paul's Projects</h1> */}
+          {/* {arr.map((currValue, index) => { */}
+            {/* return ( */}
               <Projects
-                key={index}
-                title={currValue.title}
-                githubName={currValue.githubName}
-                githubLink={currValue.githubLink}
-                src={currValue.src}
+                // key={index}
+                // title={currValue.title}
+                // githubName={currValue.githubName}
+                // githubLink={currValue.githubLink}
+                // image={currValue.image}
               />
-            );
-          })}
+            {/* );
+          })} */}
         </div>
       );
     } else {
