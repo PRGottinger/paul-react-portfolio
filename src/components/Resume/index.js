@@ -23,10 +23,9 @@ function Resume(props) {
           >
             <a href="#document">About me</a> */}
         </ul>
-        <a href="Resume.png" download>Paul's Resume</a>
-        
-          
-        
+        <a href="Resume.png" download>
+          Download Paul's Resume
+        </a>
       </div>
     </div>
   );
