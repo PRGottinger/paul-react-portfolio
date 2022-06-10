@@ -21,16 +21,16 @@ function Nav(props) {
 
   return (
     <header>
-      <h2>
+      <h2 class='h2'>
         <a href="/">💻 Paul's Web Development Portfolio!</a>
       </h2>
-      <nav>
+      <nav class="navbar">
         <ul className="flex-row">
           <li
             onClick={() => {
               props.setPage("About");
             }}
-            className="mx-2"
+            // className="mx-2"
           >
             <a href="#about">About me</a>
           </li>
@@ -40,7 +40,7 @@ function Nav(props) {
             }}
             className="mx-2"
           >
-            <span>Contact</span>
+            <a href="#contact">Contact</a>
           </li>
           <li
             onClick={() => {
@@ -48,7 +48,7 @@ function Nav(props) {
             }}
             className="mx-2"
           >
-            <span>Projects</span>
+            <a href='#projects'>Projects</a>
           </li>
 
           <li
@@ -57,7 +57,7 @@ function Nav(props) {
             }}
             className="mx-2"
           >
-            <span>Resume</span>
+            <a href='#resume'>Resume</a>
           </li>
           {/* { {categories.map((category) => (
             <li className="mx-1" key={category.name}>

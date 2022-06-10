@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer(props) {
   return (
-    <footer>
+    <footer class="footer">
         <br/>
       <span>Made by PR Gottinger</span>
       {/* <img

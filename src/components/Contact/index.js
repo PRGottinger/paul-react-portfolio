@@ -48,7 +48,7 @@ function Contact(props) {
                 <label htmlFor="email">Email Address:</label>
                 <input className="form-control" type="email"  name="email" />
             </div>
-            <div class="mt-5" >
+            <div class="message" >
                 <label htmlFor="message">Message:</label>
                 <textarea className="form-control" name="message"  />
             </div> 
@@ -59,6 +59,8 @@ function Contact(props) {
             <button data-testid='button' class="btn btn-outline-dark " type="submit" >Submit</button>
             </div>
         </form>
+
+        <span>Feel free to say hello!</span>
     </section>
     );
 }

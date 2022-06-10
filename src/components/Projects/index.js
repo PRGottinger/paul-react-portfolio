@@ -75,7 +75,7 @@ function Projects() {
             
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap project-container">
           {applications.map((application) => (
             <a
               href={application.link}
